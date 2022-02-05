@@ -1,6 +1,6 @@
 /*
  * Algorithms and Complexity                              February 05, 2022
- * IST 2048
+ * IST 4310
  * Prof. M. Diaz-Maldonado
  *
  * Synopsis:
