@@ -7,7 +7,7 @@ Prof. M Diaz-Maldonado
 
 
 Synopsis:
-Solves problems 1.3.5-7a, 1.3.5-7e, and 1.3.5-7f.
+Solves the summation problems: 1.3.5-7a, 1.3.5-7e, and 1.3.5-7f.
 
 
 Copyright (c) 2022 Misael Diaz-Maldonado
