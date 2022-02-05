@@ -49,10 +49,10 @@ class Summations
 			sum += Math.pow(A, i);
 
 
-		System.out.println("\n\n");
 		System.out.println("Problem 1.3.5-7e:");
 		System.out.printf ("exact:   %f\n", exact);
 		System.out.printf ("numeric: %f\n", sum);
+		System.out.println("\n\n");
 
 
 		/* Problem 1.3.5-7f: for i=[7, N+1), sum(4^i) */
@@ -66,9 +66,9 @@ class Summations
 			sum += Math.pow(A, i);
 
 
-		System.out.println("\n\n");
 		System.out.println("Problem 1.3.5-7f:");
 		System.out.printf ("exact:   %f\n", exact);
 		System.out.printf ("numeric: %f\n", sum);
+		System.out.println("\n\n");
 	}
 }
