@@ -1,0 +1,43 @@
+% Algorithms and Complexity				 September 07, 2022
+% IST 4310
+% Prof. M Diaz-Maldonado
+%
+% Synopsis:
+% Demo for a single column IEEE style article.
+%
+% Copyright (c) 2022 Misael Diaz-Maldonado
+% This file is released under the GNU General Public License as published
+% by the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+\documentclass[journal,onecolumn]{IEEEtran}	% defines the article style
+
+% imports required packages
+
+% adds support for mathematical equations
+\usepackage{amsmath}
+% adds support for displaying algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+% adds support for embedding graphics
+\usepackage{graphics}
+\usepackage{graphicx}
+% adds support for controling placement of floats (figures, tables, etc.)
+\usepackage{float}
+
+\begin{document}
+
+\title{Report Title}			% defines the title
+\author{FirstName LastName}		% defines the author name
+\maketitle				% creates title
+
+% imports content from tex files
+\input{abstract}
+\input{introduction}
+\input{problem}
+\input{methodology}
+\input{results}
+\input{conclusions}
+\input{references}
+
+\end{document}

@@ -1,0 +1,23 @@
+\section{Problem Definition}
+Here you are expected to define what is the subject of the study.
+
+% Shows how to insert your algorithm and how to refer to it via `ref'
+Algorithm~\ref{algo:factorial} illustrates the recursive algorithm for
+the computation of the factorial.
+
+% displays the algorithm for computing the factorial recursively:
+\begin{algorithm}[H]	% uses the float package to control placement
+	\caption{Factorial(N)}	% a brief description or the function name
+	\begin{algorithmic}
+	% here is where you use commands from the algorithmic package to
+	% write your algorithm
+		\IF {$N == 1$}
+			\RETURN $1$	\COMMENT{optional: inline comment}
+		\ELSE
+		\STATE $p \gets$ Factorial$(N - 1)$
+		\STATE $r \gets p * N$
+		\ENDIF
+		\RETURN r
+	\end{algorithmic}
+	\label{algo:factorial}	% defines a label to refer to this
+\end{algorithm}
